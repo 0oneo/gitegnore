@@ -1,34 +1,35 @@
-# Gitignore
+# Gitegnore
 
-This gem is used to copy the corresponding gitignore file from the github/gitignore repo to your current working directory.
+This gem is used to copy the corresponding gitignore file from the **github/gitignore** repo to your current working directory.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+install it yourself as:
 
-```ruby
-gem 'git_ignore'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install git_ignore
+    $ gem install gitegnore
 
 ## Usage
 
 #### list all sorts of gitignore files from `github/gitignore` repo
+
+**NOTE**: currently gitignore files in Global sub-directory are not supported
 ```
-git_ignore list
+gitegnore list
 ```
 
 #### copy corresponding gitignore file to your current working directory
 ```
-git_ignore objc # copy Objective-C.gitignore to $(pwd)
+gitegnore fetch Ojective-C # copy Objective-C.gitignore to $(pwd)
 ```
+
+#### more
+```
+gitegnore help
+```
+
+## TODO 
+- [] gitignore file alias
+- [] test case
 
 ## Contributing
 
