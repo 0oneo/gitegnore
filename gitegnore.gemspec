@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{fetch gitgnore file from the github/gitignore repo}
   spec.description   = <<-EOM
-      first it will pull lastest update from github/gitignore repo, then copy.
-      then copy corresponding .gitignore file to current diretory
+      it will pull lastest update from github/gitignore repo,
+      copy corresponding .gitignore file to current diretory
   EOM
   spec.homepage      = "https://github.com/0oneo/gitegnore"
   spec.license       = "MIT"
