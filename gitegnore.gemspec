@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
       first it will pull lastest update from github/gitignore repo, then copy.
       then copy corresponding .gitignore file to current diretory
   EOM
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/0oneo/gitegnore"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
