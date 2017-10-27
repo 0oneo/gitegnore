@@ -1,0 +1,5 @@
+ #!/usr/bin/env ruby
+
+require "gitegnore/cli"
+
+Gitegnore::CLI.start
