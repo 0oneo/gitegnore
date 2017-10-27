@@ -28,8 +28,8 @@ gitegnore help
 ```
 
 ## TODO 
-- [] gitignore file alias
-- [] test case
+- [ ] gitignore file alias
+- [ ] test case
 
 ## Contributing
 
